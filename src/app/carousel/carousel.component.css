@@ -1,0 +1,17 @@
+
+img{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+#car{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+:host::ng-deep a{
+    display: none;
+}
+:host::ng-deep ol{
+    display: none;
+}

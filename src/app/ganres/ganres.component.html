@@ -1,3 +1,10 @@
-<p>
-  ganres works!
-</p>
+<div id="ganreWrapper">
+  <div>
+    <ul *ngFor="let ganre of ganres">
+      <li (click)="idOfGanre(ganre.id)">
+        {{ ganre.naziv }}
+      </li>
+    </ul>
+  </div>
+</div>
+<router-outlet></router-outlet>

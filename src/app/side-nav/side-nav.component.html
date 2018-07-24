@@ -1,0 +1,23 @@
+<header id="navigation-head">
+  <div id="sideHeaderWraper">
+    <nav class="navbar navbar-light" id="navBar">
+      <a class="navbar-brand" rel="Home">JukeBox</a>
+      <div class="col" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" id="headerList">
+          <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+            <a class="nav-link" routerLink="/" rel="Home">Home</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="/artists" rel="Artists" id="art">Artists</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="/ganre" rel="Ganre" id="gen">Ganre</a>
+          </li>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="/music" rel="Music" id="mus">Music</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>

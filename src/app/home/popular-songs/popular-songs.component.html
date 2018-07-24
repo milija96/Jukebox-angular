@@ -1,0 +1,11 @@
+
+<div id="listWaraper">
+  <h3>Popular songs</h3>
+  <div id="musicWraper"> 
+  <ul class="list-group" id="musicList">
+    <div id="musicItem" *ngFor="let song of songs">
+      <p>{{ song.pesmaNaziv }}</p>
+  </div>
+  </ul>
+  </div>
+</div>

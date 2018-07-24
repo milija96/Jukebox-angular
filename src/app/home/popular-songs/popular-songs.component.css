@@ -1,0 +1,45 @@
+:host{
+    margin-top: 10px;
+
+    border-radius: 1%;
+}
+h6{
+    opacity: 0.5;
+}
+#listWaraper {
+    height: 50%;
+    border: 1px solid gray;
+}
+#listWaraper ul li{
+    height: 100%;
+}
+#listWaraper ul #musicItem{
+    height: 80px;
+}
+li{
+    list-style-type: none;
+}
+#musicList{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+#musicWraper{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+#musicItem{
+    padding: 2px 2px;
+    overflow: hidden;
+}
+#awesome{
+    position: absolute;
+   
+}
+#musicItem  i{
+    right: 0px;
+}
+#awesome:hover{
+    border: 1px solid red;
+}
+
