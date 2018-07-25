@@ -15,7 +15,6 @@ export class PaginationService{
                 return data;
             }
         );
-        
     }
 
 }

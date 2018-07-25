@@ -27,6 +27,7 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { AcountComponent } from './acount/acount.component';
 import { GanreMusicComponent } from './ganres/ganre-music/ganre-music.component';
 import { PaginationService } from './pagination.service';
+import { AuthService } from './auth.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -55,7 +56,7 @@ import { PaginationService } from './pagination.service';
 
     
   ],
-  providers: [CarouselService, SongsService, PaginationService],
+  providers: [CarouselService, SongsService, PaginationService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
